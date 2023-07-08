@@ -79,6 +79,9 @@
     <Compile Include="SORTestModpackCore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy "$(TargetPath)" "C:\Users\Naveed\Downloads\Streets_Of_Rogue\BepInEx\plugins\SOR_Test_Modpack\Assemblies"</PostBuildEvent>
