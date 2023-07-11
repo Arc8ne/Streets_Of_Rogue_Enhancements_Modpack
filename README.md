@@ -2,6 +2,7 @@
 The Streets Of Rogue Enhancements Modpack currently features the following mods:
 - The Customizeable Inventory Space mod.
 - The No Knockback mod.
+- The Hold And Attack mod.
 
 There are plans to add more features to the 2 currently featured mods in this modpack.
 
