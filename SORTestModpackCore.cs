@@ -36,7 +36,7 @@ namespace SOR_Test_Modpack
             );
 
             this.activatedModules.Add(
-                HoldAndShootModule.instance
+                HoldAndAttackModule.instance
             );
         }
 

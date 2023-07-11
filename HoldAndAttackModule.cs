@@ -8,11 +8,11 @@ using UnityEngine;
 
 namespace SOR_Test_Modpack
 {
-	public class HoldAndShootModule : ISORModpackModule
+	public class HoldAndAttackModule : ISORModpackModule
 	{
-		public static HoldAndShootModule instance = new HoldAndShootModule();
+		public static HoldAndAttackModule instance = new HoldAndAttackModule();
 
-		public HoldAndShootModule()
+		public HoldAndAttackModule()
 		{
 
 		}
@@ -26,7 +26,7 @@ namespace SOR_Test_Modpack
 				),
 				prefix: new HarmonyMethod(
 					AccessTools.Method(
-						typeof(HoldAndShootModule),
+						typeof(HoldAndAttackModule),
 						nameof(Gun_GunUpdate_PrefixPatch)
 					)
 				)

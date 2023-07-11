@@ -77,7 +77,7 @@
   <ItemGroup>
     <Compile Include="ExperimentalPatcher.cs" />
     <Compile Include="CustomizeableInventorySpaceModule.cs" />
-    <Compile Include="HoldAndShootModule.cs" />
+    <Compile Include="HoldAndAttackModule.cs" />
     <Compile Include="ISORModpackModule.cs" />
     <Compile Include="NoKnockbackModule.cs" />
     <Compile Include="QuestTypes.cs" />
