@@ -32,11 +32,16 @@ namespace SOR_Test_Modpack
 			);
 		}
 
-		public static bool Movement_FindKnockBackStrength_PrefixPatch(float strength, ref float __result)
+		public static bool Movement_FindKnockBackStrength_PrefixPatch(float strength, ref float __result, Movement __instance)
 		{
-			__result = 0;
+			if (__instance.agent == GameController.gameController.playerAgent)
+			{
+				__result = 0;
 
-			return false;
+				return false;
+			}
+			
+			return true;
 		}
 	}
 }

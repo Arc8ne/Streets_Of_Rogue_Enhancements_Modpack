@@ -378,11 +378,11 @@ namespace SOR_Test_Modpack
 					__instance.mainGUI.AllSlots.Add(gameObject.GetComponent<InvSlot>());
 					gameObject.name = string.Concat(new string[]
 					{
-				"InvSlot (",
-				(m + 1).ToString(),
-				".",
-				(n + 1).ToString(),
-				")"
+						"InvSlot (",
+						(m + 1).ToString(),
+						".",
+						(n + 1).ToString(),
+						")"
 					});
 					gameObject.transform.SetParent(__instance.transform.GetChild(0).transform.GetChild(0).transform);
 					gameObject.GetComponent<RectTransform>().localPosition = new Vector3((float)__instance.slotXPos, (float)__instance.slotYPos, 0f);

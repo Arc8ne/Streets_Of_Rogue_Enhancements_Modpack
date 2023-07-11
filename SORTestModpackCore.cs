@@ -25,12 +25,18 @@ namespace SOR_Test_Modpack
 
         private void ActivateModules()
         {
+            /*
             this.activatedModules.Add(
                 CustomizeableInventorySpaceModule.instance
             );
+            */
 
             this.activatedModules.Add(
                 NoKnockbackModule.instance
+            );
+
+            this.activatedModules.Add(
+                HoldAndShootModule.instance
             );
         }
 
